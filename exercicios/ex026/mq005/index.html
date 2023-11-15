@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>SELEÇÃO NACIONAL|FUTEBOL INTERNACIONAL</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#">Opcao 2</a></li>
+                <li><a href="#">Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>João Mário realiza primeiro treino por Portugal, Raphaël Guerreiro ausente</h2>
+            <p>Portugal prosseguiu hoje com a preparação para o jogo no Liechtenstein, na quinta-feira, numa sessão em Raphaël Guerreiro falhou o segundo treino dos lusos, no qual já esteve presente o defesa João Mário, estreia absoluta em convocatórias 'AA'. O lateral do FC Porto, que foi chamado à ultima da hora na segunda-feira para render Diogo Dalot, não chegou a tempo do arranque dos trabalhos para o jogo da nona e penúltima jornada do Grupo J de apuramento para o Euro2024, mas hoje já integrou os trabalhos no principal relvado da Cidade do Futebol, em Oeiras.
+                </p>
+
+            <p>Depois do primeiro apronto ter sido marcado pelo trabalho de recuperação no relvado, o selecionador Roberto Martínez apenas esteve privado do lateral esquerdo dos alemães do Bayern Munique, que ficou pelo ginásio a recuperar. Durante os primeiros 15 minutos abertos aos jornalistas, os jogadores de campo foram divididos em três grupos, para a realização de exercícios com e sem bola.</p>
+
+            <p>Os guarda-redes Diogo Costa, Rui Patrício e José Sá, o último será o titular contra o Liechtenstein, em Vaduz, e ainda o jovem João Carvalho, dos sub-21, que já tinha estado no relvado na segunda-feira, efetuaram trabalho especifico junto de umas das balizas. A seleção nacional, que já está apurada e tem o primeiro lugar do Grupo J garantido, defronta o Liechtenstein na quinta-feira, em Vaduz, às 20:45 locais (19:45 em Lisboa)</p>
+
+            <p>Após o encontro em Vaduz, Portugal fecha a fase de apuramento no domingo, perante a Islândia, no Estádio José Alvalade, em Lisboa. Portugal lidera o Grupo J com 24 pontos, mais oito do que a Eslováquia, segunda classificada, com o Luxemburgo, terceiro, a somar 11. A Islândia é quarta colocada, com 10 pontos, à frente da Bósnia-Herzegovina, com nove, e do Liechtenstein, último, sem qualquer ponto.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (items.style.display == 'block') {
+                items.style.display = 'none'
+            } else {
+                items.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
